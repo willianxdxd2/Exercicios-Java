@@ -1,0 +1,32 @@
+package peças;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		double cpeça1, npeça1, upeça1;
+		double cpeça2, npeça2, upeça2,total;
+
+		System.out.println("Dados peça um: ");
+		System.out.println("O Codigo da peça um");
+		cpeça1 = sc.nextDouble();
+		System.out.println("Digite o número de peças um");
+		npeça1 = sc.nextDouble();
+		System.out.println("Digite o valor unitário de cada peça um");
+		upeça1 = sc.nextDouble();
+		
+		System.out.println("Dados peça dois: ");
+		System.out.println("O Codigo da peça dois");
+		cpeça2 = sc.nextDouble();
+		System.out.println("Digite o número de peças dois");
+		npeça2 = sc.nextDouble();
+		System.out.println("Digite o valor unitário de cada peça dois");
+		upeça2 = sc.nextDouble();
+		
+		total = (npeça1 * upeça1) + (npeça2 * upeça2);
+		
+		System.out.println("VALOR A PAGAR: " + total);
+	}
+
+}

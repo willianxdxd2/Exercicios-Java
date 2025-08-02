@@ -1,0 +1,12 @@
+#
+#Sat Aug 02 19:46:32 BRT 2025
+buildDir=build
+buildScriptPath=build.gradle
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n<classpathentry kind\="lib" path\="C\:/Users/willi/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.13.1/734d9a5ca877bbce0c595dbdc3165fe6a22b7a30/gdx-1.13.1.jar" sourcepath\="C\:/Users/willi/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.13.1/12dc3ca46a914fec543f6186a9cf17fa4a93c1b/gdx-1.13.1-sources.jar">\r\n\t<attributes>\r\n\t\t<attribute name\="gradle_used_by_scope" value\="main,test"/>\r\n\t</attributes>\r\n</classpathentry>\r\n<classpathentry kind\="lib" path\="C\:/Users/willi/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-jnigen-loader/2.5.2/f35e90affe07c46b4f5e5958a1a4c1820c4890e2/gdx-jnigen-loader-2.5.2.jar" sourcepath\="C\:/Users/willi/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-jnigen-loader/2.5.2/2a21b103d03be8d1ed81a021981376615f481cf5/gdx-jnigen-loader-2.5.2-sources.jar">\r\n\t<attributes>\r\n\t\t<attribute name\="gradle_used_by_scope" value\="main,test"/>\r\n\t</attributes>\r\n</classpathentry>\r\n</classpath>\n
+derivedResources=.gradle;build
+gradleVersion=8.12
+hasAutoBuildTasks=false
+linkedResources=
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+managedNatures=
+subprojectPaths=

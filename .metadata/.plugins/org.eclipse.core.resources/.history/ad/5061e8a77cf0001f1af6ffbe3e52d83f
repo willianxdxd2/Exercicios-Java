@@ -1,0 +1,19 @@
+package cotacao_dollar;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		CurrencyConverter cc = new CurrencyConverter();
+		
+		System.out.println("Whats the dollars price?");
+		cc.dollar=sc.nextDouble();
+		System.out.println("How many dollars will  be bought?");
+		cc.bought=sc.nextDouble();
+		
+		System.out.println("The final result %.2f" , cc.howmany());
+	}
+
+}

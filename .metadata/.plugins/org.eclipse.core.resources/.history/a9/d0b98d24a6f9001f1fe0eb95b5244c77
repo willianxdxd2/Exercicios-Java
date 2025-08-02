@@ -1,0 +1,18 @@
+package banco;
+
+public class usuario {
+	private final int numconta = 8532;
+	public String  nome = "Alex Green";
+	private double deposito = 0;
+	
+}
+public void setdeposito(double deposito) {
+	this.deposito = deposito;
+}
+public double getdeposito() {
+	return deposito;
+}
+public int getnumconta() {
+	return this.numconta;
+	
+}

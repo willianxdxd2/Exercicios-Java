@@ -1,0 +1,30 @@
+package entities;
+
+public class ImportedProduct extends Product{
+
+	public ImportedProduct(String name, Double price) {
+		super(name, price);
+	}
+	
+private double customsFee;
+	
+	public double totalPrice() {
+	
+		return customsFee - price;
+		
+	}
+
+	public ImportedProduct() {
+	
+	}
+
+	public double getCustomsFee() {
+		return customsFee;
+	}
+
+	public void setCustomsFee(double customsFee) {
+		this.customsFee = customsFee;
+	}
+	
+	
+}

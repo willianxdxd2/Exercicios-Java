@@ -1,0 +1,36 @@
+package banco;
+import java.util.Scanner;
+public class login {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner (System.in);
+	usuario us = new usuario();
+	
+	System.out.println("Já é registrado? (s/n)");
+	String resposta = sc.next();
+	sc.nextLine();
+	if (resposta == "s") {
+		System.out.println("Prossiga com o login: ");
+		System.out.println("Digite o numero da conta");
+		int numero = sc.nextInt();
+		while (numero != us.getnumconta()) {
+			System.out.println("Digite um numero valido de conta");
+			numero = sc.nextInt();
+		}
+		System.out.println("Digite o nome da conta");
+		
+		
+	}
+	else {
+		System.out.println("Digite seu usuário");
+		us.nome = sc.next();
+		System.out.println("Seu usuário é: " + us.nome);
+		System.out.println("O número da sua conta é: " + us.getnumconta());
+	}
+	
+	
+	
+
+	}
+}
+
