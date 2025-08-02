@@ -1,0 +1,13 @@
+package cotacao_dollar;
+
+public class CurrencyConverter {
+	 double dollar;
+	 double bought;	 
+
+
+public double howmany() {
+	
+	return dollar * bought;
+	
+}
+}

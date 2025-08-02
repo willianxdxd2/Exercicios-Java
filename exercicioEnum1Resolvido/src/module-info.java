@@ -1,0 +1,2 @@
+module exercicioEnum1Resolvido {
+}

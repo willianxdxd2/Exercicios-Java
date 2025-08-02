@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy source folder &apos;src&apos; to &apos;exercicioVetor&apos;&#x0D;&#x0A;- Original project: &apos;vetoresQuartos&apos;&#x0D;&#x0A;- Destination element: &apos;exercicioVetor&apos;&#x0D;&#x0A;- Original element: &apos;vetoresQuartos/src&apos;" description="Copy source folder" destination="=exercicioVetor" element1="/src" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1744753446151" version="1.0"/>
+</session>

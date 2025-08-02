@@ -1,0 +1,30 @@
+package bancoPoo;
+import java.util.Scanner;
+import dados.Dados;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int numConta = 0;
+		String name = null;
+		double deposito = 0;
+		Dados dados = new Dados(numConta,name,deposito);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Insira o número da conta: ");
+		numConta = sc.nextInt();
+		dados.setNumConta(numConta);
+		System.out.println("Insira o nome titular da conta: ");
+		sc.nextLine();
+		name = sc.nextLine();
+		dados.setName(name);
+		System.out.println("Insira valor deposito incial: ");
+		deposito = sc.nextDouble();
+		dados.setDeposito(deposito);
+		
+		dados.exibirDados();
+	}
+
+}

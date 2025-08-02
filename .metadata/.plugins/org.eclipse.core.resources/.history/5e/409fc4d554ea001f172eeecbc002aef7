@@ -1,0 +1,32 @@
+package ex;
+import java.util.Scanner;
+import java.util.Locale;
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o salario para calcular o imposto de acordo com a tabela");
+		double n1 = sc.nextDouble();
+		double imposto1;
+		double total;
+		
+		total = n1;
+		if (n1 >= 0 && n1 <=2000) {
+			System.out.println("Isento");
+	}
+		else if (n1 >= 2000.1 && n1 <= 3000) {
+			System.out.println("%8 de imposto");
+			imposto1 = ((((n1 - 2000)* 8)/ 100)+total);
+			System.out.println("O calculo do imposto deu: " + imposto1);
+		}
+		else if(n1 >= 3000.01 && n1 <= 4500.00) {
+			System.out.println("%18");
+		}	imposto1 = ((((n1 - 2000)* 8)/ 100)+ total);
+			imposto1 = ((imposto1 - 1499.9)*18)/100+total;
+		if(n1 > 4500) {
+			System.out.println("28%");
+			imposto1 = ((((n1 - 2000)* 8)/ 100));}
+	
+	}
+}

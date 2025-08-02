@@ -1,0 +1,57 @@
+package banco;
+import java.util.Scanner;
+public class login {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner (System.in);
+	usuario us = new usuario();
+	
+	System.out.println("Já é registrado? (s/n)");
+	String resposta = sc.next();
+	sc.nextLine();
+	if (resposta == "s") {
+		System.out.println("Prossiga com o login: ");
+		System.out.println("Digite o numero da conta");
+		int numero = sc.nextInt();
+		while (numero != us.getnumconta()) {
+			System.out.println("Digite um numero valido de conta");
+			numero = sc.nextInt();
+		}
+		System.out.println("Digite o nome da conta");
+		
+		
+	}
+	else {
+		System.out.println("Digite seu usuário");
+		us.nome = sc.next();
+		System.out.println("Seu usuário é: " + us.nome);
+		System.out.println("O número da sua conta é: " + us.getnumconta());
+	}
+	
+	System.out.println("Prossiga com o login: ");
+	System.out.println("Digite o numero da conta");
+	int numero = sc.nextInt();
+	while (numero != us.getnumconta()) {
+		System.out.println("Digite um numero valido de conta");
+		numero = sc.nextInt();
+	}
+	System.out.println("Digite o nome da conta");
+	String digitarnome = sc.nextLine();
+	while (digitarnome != us.nome ) {
+		System.out.println("Nome inválido tente novamente");
+		digitarnome = sc.nextLine();
+	}
+	System.out.println("login bem sucedido!");
+	System.out.println("Digite saldo a depositar: ");
+	double saldodep = sc.nextDouble();
+	us.setDeposito(saldodep);
+	System.out.println("digite o saldo a sacar: ");
+	double saldosacar = sc.nextDouble();
+	us.setDepositoSacar(saldosacar);
+	
+	System.out.println("A conta: "  + us.getnumconta() +  "Nome: " + us.nome + "Saldo atual: " + us.getdeposito());
+	
+	
+	}
+}
+

@@ -1,0 +1,19 @@
+package exercicioComposição;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Date;
+public class Program {
+
+	public static void main(String[] args) {
+		SimpleDateFormat sdf = new SimpleDateFormat("DD/MM/YYYY");
+		LocalDate momentDate = LocalDate.now();
+		String dateFormated = sdf.format(momentDate);
+		System.out.println(momentDate);
+		
+		
+		
+		
+	}
+
+}

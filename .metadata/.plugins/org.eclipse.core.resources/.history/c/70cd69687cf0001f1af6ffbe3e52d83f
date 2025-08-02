@@ -1,0 +1,24 @@
+package cotacao_dollar;
+
+public class CurrencyConverter {
+	 double dollar;
+	 double bought;	 
+
+public static final int tax = 6;
+		 
+public double taxes(){
+	
+	return (tax * dollar) / 100;
+}
+	 
+	 
+	 
+	 
+public double howmany() {
+	
+	return (dollar + this.taxes()) * bought;
+	
+}
+
+
+	
